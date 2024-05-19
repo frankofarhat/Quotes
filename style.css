@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+h1 {
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    color: #212121;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+
+.quotes {
+    margin: 30px auto;
+    width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.quotes-id {
+    position: absolute;
+    left: 97%;
+    top: -15px;
+    background-color: #d32f2f;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.quotes-author {
+    position: absolute;
+    right: 91%;
+    top: -20px;
+    color: white;
+    font-weight: bolder;
+    background-color: #1976d2;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.quotes-display {
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.8;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+.quotes-display::before,
+.quotes-display::after {
+    font-size: 50px;
+    position: absolute;
+    color: #bdbdbd;
+}
+
+.quotes-display::before {
+    content: "“";
+    top: 0;
+    left: 0;
+}
+
+.quotes-display::after {
+    content: "„";
+    bottom: 0;
+    right: 0;
+}
+
+.buttons button {
+    margin-right: 20px;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    transition: 0.2s;
+}
+
+.buttons button:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.generate {
+    background-color: #4caf50;
+    color: white;
+}
+
+.auto {
+    background-color: #1976d2;
+    color: white;
+}
+
+.stop {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.copy {
+    background-color: #ffeb3b;
+    color: #212121;
+}
+
+.auto-status {
+    color: white;
+    background-color: #4caf50;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}

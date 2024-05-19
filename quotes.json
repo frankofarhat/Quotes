@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "author": "Einstein",
+        "text": "Life Is Like Riding A Bicycle. To Keep Your Balance, You Must Keep Moving"
+    },
+    {
+        "id": 2,
+        "author": "Eleanor Roosevelt",
+        "text": "No One Can Make You Feel Inferior Without Your Consent"
+    },
+    {
+        "id": 3,
+        "author": "Tomas Edison",
+        "text": "Genius Is One Percent Inspiration And Ninety-nine Percent Perspiration "
+    },
+    {
+        "id": 4,
+        "author": "Ralph Waldo",
+        "text": "You Only Live Once, But If You Do It Right, Once Is Enough"
+    },
+    {
+        "id": 5,
+        "author": " Gandhi",
+        "text": "Live As If You Were To Die Tomorrow"
+    },
+    {
+        "id": 6,
+        "author": "Dalai Lama",
+        "text": "Just One Small Positive Thought In The Morning Can Change Your Whole Day"
+    }
+]
