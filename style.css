@@ -127,7 +127,7 @@ h1 {
 
 .auto-status {
     color: white;
-    background-color: rgba(0, 255, 21, 0.26);
+    background-color: rgba(0, 255, 21, 0.753);
     width: 100px;
     text-align: center;
     position: absolute;
@@ -145,8 +145,8 @@ h1 {
     }
 
     .quotes-display {
-        font-size: 20px;
-        padding: 15px;
+        font-size: 12px;
+        padding: 18px;
     }
 
     .quotes-author {
